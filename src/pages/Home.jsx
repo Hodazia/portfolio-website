@@ -10,12 +10,16 @@ export const Home = () => {
     <div className="relative w-full flex-grow">
     <div className="max-w-3xl sm:w-3/4 mx-auto px-6">
     <section className='py-5'>
-      <div className='flex justify-between items-start mb-10 pt-24'>
+      <div className='flex 
+      flex-col sm:flex-row sm:justify-between 
+      items-center sm:items-start mb-10 pt-24 gap-6
+      '>
         <div className='relative w-[128px] h-[128px] rounded-2xl 
         overflow-hidden'> 
         <img 
         src={Profle}
-        alt='ALternate profile picture'/>
+        alt='ALternate profile picture'
+        className='w-full h-full object-cover'/>
         </div>
         <div className='flex items-center gap-6 
         '>
