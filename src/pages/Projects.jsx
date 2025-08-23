@@ -7,7 +7,7 @@ import Virtualpay from "../assets/PROJECTIMG/dashpreview.png"
 import Resumeroast from "../assets/PROJECTIMG/roastresume.png"
 import ClickyDrop from "../assets/PROJECTIMG/clickydrop.png"
 
-const PROJECTS = [
+export const PROJECTS = [
     {
         id: 1,
         title: "CARDVAULT",
@@ -77,16 +77,16 @@ export const Projects = () => {
         <>
             <div className="relative w-full flex-grow">
             <div className="max-w-3xl sm:w-3/4 mx-auto px-6">
-            <section className="py-20 ">
-            <h2 className="text-2xl font-medium mb-3 bg-gradient-to-r 
-            from-blue-400
-            to-cyan-600 bg-clip-text text-transparent">
-                Projects
-            </h2>
-            <p className="text-white mb-2">
-                A collection of my work, frontend , full stack projects 
-                and the works i have been working on!
-            </p>
+            <section className="py-5 ">
+                <h2 className="text-2xl font-medium mb-3 bg-gradient-to-r 
+                from-blue-400
+                to-cyan-600 bg-clip-text text-transparent">
+                    Projects
+                </h2>
+                <p className="text-white mb-2">
+                    A collection of my work, frontend , full stack projects 
+                    and the works i have been working on!
+                </p>
             <div className="flex flex-col gap-2 w-full">
                 {/*Cards of projects, */}
                 <div className="flex-1 outline-none mt-0">
@@ -98,13 +98,16 @@ export const Projects = () => {
                             return (
                                 <div key={project.id} className="opacity-100">
                                     <div className="rounded-lg border flex flex-col gap-6 
-                                    shadom-sm py-6 text-[#ffffff] group relative border-[#232323]
-                                     bg-[#1a1a1a] hover:bg-[#242424] transition-all duration-300
-                                      overflow-hidden">
+                                    shadom-sm py-2 text-[#ffffff] group relative border-[#232323]
+                                     bg-[#1a1a1a] 
+                                     hover:bg-gradient-to-r from-blue-800 to-indigo-900
+                                    hover:scale-105
+                                     transition-all duration-300
+                                      overflow-hidden min-h-[400px]">
                                         <div className="absolute -inset-[1px] bg-gradient-to-r 
                                         from-purple-600/20 via-pink-600/20 to-red-600/20 opacity-0 
                                         group-hover:opacity-100 transition duration-500 blur-sm"></div>
-                                        <div className="relative z-10 p-6 flex flex-col h-full 
+                                        <div className="relative z-10 p-3 flex flex-col h-full 
                                         justify-between">
                                             {/* Thumbnail with a colored placeholder */}
                                             <a href={project.liveLink} target="_blank" 
@@ -136,8 +139,9 @@ export const Projects = () => {
                                                 <div className="flex flex-wrap gap-2 mb-4">
                                                     {project.technologies.map((tech, index) => (
                                                         <span key={index}
-                                                         className="text-xs px-2 py-1 bg-[#2b2b2b] text-white 
-                                                         rounded-full">
+                                                         className="text-xs px-2 py-1 bg-[#ffffff]
+                                                         text-blue-400
+                                                          rounded-full">
                                                             {tech}
                                                         </span>
                                                     ))}
