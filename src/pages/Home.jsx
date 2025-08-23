@@ -1,5 +1,5 @@
 
-import { Twitter, BookOpen,Github,FileUser } from 'lucide-react'
+import { Twitter, BookOpen,Github,FileUser,FileMinus } from 'lucide-react'
 
 
 import Profle from '../assets/profilepic.jpg'
@@ -42,8 +42,14 @@ export const Home = () => {
           <a target='_blank' className='w-10 h-10 flex items-center
           justify-center rounded-lg transition-colors cursor-pointer
           hover:bg-gradient-to-r from-blue-800 to-indigo-900
-          hover:scale-110 duration-600' href='https://drive.google.com/file/d/1H2er-fYPNhOfl_CMqwscioTOA7PxIn0O/view?usp=sharing'>
+          hover:scale-110 duration-600' href='https://drive.google.com/file/d/1R589dOTE44882nZJlRw5Ll3e_1gR2myC/view?usp=sharing'>
           <FileUser className='text-white' />
+          </a>
+          <a target='_blank' className='w-10 h-10 flex items-center
+          justify-center rounded-lg transition-colors cursor-pointer
+          hover:bg-gradient-to-r from-blue-800 to-indigo-900
+          hover:scale-110 duration-600' href='https://hospitable-page-c67.notion.site/ZIAUL-HODA-24062da32a8d80139aadd7459d975cee'>
+          <FileMinus className='text-white' />
           </a>
         </div>
       </div>

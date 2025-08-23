@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Mail,Linkedin } from 'lucide-react';
+import { Github, Mail,Linkedin,FileUser } from 'lucide-react';
 
 
 
@@ -44,6 +44,14 @@ export const ContactMe = () => {
                                 <a href="https://github.com/Hodazia" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4">
                                     <Github className='h-6 w-6 text-white'/>
                                     <h3 className="text-lg font-semibold text-white">GitHub</h3>
+                                </a>
+                            </ContactCard>
+                            <ContactCard>
+                                <a href="https://drive.google.com/file/d/1R589dOTE44882nZJlRw5Ll3e_1gR2myC/view?usp=sharing"
+                                 target="_blank" rel="noopener noreferrer"
+                                  className="flex items-center space-x-4">
+                                    <FileUser className='h-6 w-6 text-white'/>
+                                    <h3 className="text-lg font-semibold text-white">Resume</h3>
                                 </a>
                             </ContactCard>
                         </div>
