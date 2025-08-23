@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Link} from "lucide-react";
-import Zenchat from "../assets/PROJECTIMG/ZenChat.png"
+import Zenchat from "../assets/PROJECTIMG/Zenchat.png"
 import CardVault from "../assets/PROJECTIMG/CardVault.png"
 import DailyBrew from "../assets/PROJECTIMG/dailybrew.png"
 import Virtualpay from "../assets/PROJECTIMG/dashpreview.png"
