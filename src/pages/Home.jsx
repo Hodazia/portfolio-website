@@ -1,5 +1,5 @@
 
-import { Twitter, BookOpen,Github } from 'lucide-react'
+import { Twitter, BookOpen,Github,FileUser } from 'lucide-react'
 
 
 import Profle from '../assets/profilepic.jpg'
@@ -38,6 +38,12 @@ export const Home = () => {
           hover:bg-gradient-to-r from-blue-800 to-indigo-900
           hover:scale-110 duration-600' href='https://github.com/Hodazia'>
           <Github className='text-white' />
+          </a>
+          <a target='_blank' className='w-10 h-10 flex items-center
+          justify-center rounded-lg transition-colors cursor-pointer
+          hover:bg-gradient-to-r from-blue-800 to-indigo-900
+          hover:scale-110 duration-600' href='https://drive.google.com/file/d/1H2er-fYPNhOfl_CMqwscioTOA7PxIn0O/view?usp=sharing'>
+          <FileUser className='text-white' />
           </a>
         </div>
       </div>
