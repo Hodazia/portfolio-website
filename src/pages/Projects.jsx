@@ -5,11 +5,22 @@ import CardVault from "../assets/PROJECTIMG/CardVault.png"
 import DailyBrew from "../assets/PROJECTIMG/dailybrew.png"
 import Virtualpay from "../assets/PROJECTIMG/dashpreview.png"
 import Resumeroast from "../assets/PROJECTIMG/roastresume.png"
-import ClickyDrop from "../assets/PROJECTIMG/clickydrop.png"
+import ClickyDrop from "../assets/clickydrp1.png"
 
 export const PROJECTS = [
     {
         id: 1,
+        title: "ClickyDrop",
+        description: "A one place for all your important links",
+        technologies: ["NextJS","ReactJS", "NodeJS", "TailwindCSS","ShadCN",
+             "Prisma","Expressjs","PostgreSQL","NextAuth","Framer Motion", "Cloudinary"],
+        status: "Finished",
+        image: ClickyDrop,
+        liveLink: "https://clickydrp.vercel.app/",
+        githubLink: "https://github.com/Hodazia/Clickydrp"
+    },
+    {
+        id: 2,
         title: "CARDVAULT",
         description: "Your Personal Hub for Curated Digital Content",
         technologies: ["ReactJS", "NodeJS", "ExpressJS", "Shadcn UI", "TailwindCSS","MongoDB"],
@@ -19,7 +30,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/CardVault"
     },
     {
-        id: 2,
+        id: 3,
         title: "ZENCHAT",
         description: "Room based web chat App",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "Web Sockets"],
@@ -29,7 +40,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/ZenChat"
     },
     {
-        id: 3,
+        id: 4,
         title: "VIRTUAL PAY",
         description: "Virtual payment App with features like real ones",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB","Express JS"],
@@ -39,7 +50,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/Paytm-payment"
     },
     {
-        id: 4,
+        id: 5,
         title: "ResumeRoast",
         description: "Roast your resume accordingly to ur standards",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "OpenAI"],
@@ -47,16 +58,6 @@ export const PROJECTS = [
         image: Resumeroast,
         liveLink: "https://roast-my-resume-lilac.vercel.app/",
         githubLink: "https://github.com/Hodazia/resume-roast"
-    },
-    {
-        id: 5,
-        title: "ClickyDrop",
-        description: "A one place for all your important links",
-        technologies: ["ReactJS", "NodeJS", "TailwindCSS", "Prisma","Expressjs","PostgreSQL"],
-        status: "ongoing",
-        image: ClickyDrop,
-        liveLink: "https://github.com/Hodazia/Clickydrop",
-        githubLink: "https://github.com/Hodazia/Clickydrop"
     },
     {
         id: 6,

@@ -11,6 +11,10 @@ import PG from "../assets/TECHSTACK/PostgresSQL.png"
 import POSTMAN from "../assets/TECHSTACK/Postman.png"
 import REACT from "../assets/TECHSTACK/React.png"
 import TYPESCRIPT from "../assets/TECHSTACK/TypeScript.png"
+import NextAuth from "../assets/TECHSTACK/NextAuth.png"
+import Prisma from "../assets/TECHSTACK/Prisma.png"
+import Docker from "../assets/TECHSTACK/Docker.png"
+import Shadcn from "../assets/TECHSTACK/Shadcn.png"
 
 export const TechStack = () => {
   const stack = [
@@ -64,6 +68,26 @@ export const TechStack = () => {
       src: NODE,
       className: "h-20 w-20",
     },
+    {
+      title:"NextAuth",
+      src: NextAuth,
+      className:"h-20 w-20",
+    },
+    {
+      title:"DOCKER",
+      src:Docker,
+      className:"h-20 w-20 bg-black"
+    },
+    {
+      title:"Prisma",
+      src:Prisma,
+      className:"h-20 w-20"
+    },
+    {
+      title:"Shadcn",
+      src:Shadcn,
+      className:"h-20 w-20 bg-white text-black"
+    }
   ];
   return (
     <>
