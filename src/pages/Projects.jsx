@@ -6,10 +6,23 @@ import DailyBrew from "../assets/PROJECTIMG/dailybrew.png"
 import Virtualpay from "../assets/PROJECTIMG/dashpreview.png"
 import Resumeroast from "../assets/PROJECTIMG/roastresume.png"
 import ClickyDrop from "../assets/clickydrp1.png"
+import Scribble from "../assets/PROJECTIMG/feat4.png"
 
 export const PROJECTS = [
     {
         id: 1,
+        title: "Scribble",
+        description: "A collaborative tool for users to draw,ideate and chat together",
+        technologies: ["NextJS","ReactJS", "TurboRepo", "Monorepo",
+             "CanvasAPI", "TailwindCSS","ShadCN",
+             "Prisma","Expressjs","PostgreSQL","Framer Motion", "Cloudinary"],
+        status: "Finished",
+        image: Scribble,
+        liveLink: "https://scribble-xo7w.onrender.com/",
+        githubLink: "https://github.com/Hodazia/Scribble"
+    },
+    {
+        id: 2,
         title: "ClickyDrop",
         description: "A one place for all your important links",
         technologies: ["NextJS","ReactJS", "NodeJS", "TailwindCSS","ShadCN",
@@ -20,7 +33,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/Clickydrp"
     },
     {
-        id: 2,
+        id: 3,
         title: "CARDVAULT",
         description: "Your Personal Hub for Curated Digital Content",
         technologies: ["ReactJS", "NodeJS", "ExpressJS", "Shadcn UI", "TailwindCSS","MongoDB"],
@@ -30,7 +43,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/CardVault"
     },
     {
-        id: 3,
+        id: 4,
         title: "ZENCHAT",
         description: "Room based web chat App",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "Web Sockets"],
@@ -40,7 +53,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/ZenChat"
     },
     {
-        id: 4,
+        id: 5,
         title: "VIRTUAL PAY",
         description: "Virtual payment App with features like real ones",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB","Express JS"],
@@ -50,7 +63,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/Paytm-payment"
     },
     {
-        id: 5,
+        id: 6,
         title: "ResumeRoast",
         description: "Roast your resume accordingly to ur standards",
         technologies: ["ReactJS", "NodeJS", "TailwindCSS", "OpenAI"],
@@ -60,7 +73,7 @@ export const PROJECTS = [
         githubLink: "https://github.com/Hodazia/resume-roast"
     },
     {
-        id: 6,
+        id: 7,
         title: "DailyBrew",
         description: "A static frontend coffee store website",
         technologies: ["ReactJS", "TailwindCSS","Framer"],

@@ -46,7 +46,7 @@ export const Home = () => {
           <a target='_blank' className='w-10 h-10 flex items-center
           justify-center rounded-lg transition-colors cursor-pointer
           hover:bg-gradient-to-r from-blue-800 to-indigo-900
-          hover:scale-110 duration-600' href='https://drive.google.com/file/d/1NhEOcCtU59iOEywbOBz0EoDPN3IJbAAE/view?usp=sharing'>
+          hover:scale-110 duration-600' href='https://drive.google.com/file/d/1zWAi3r28KeAhDabm0jysALQ63n8yf6Hy/view'>
           <FileUser className='text-white' />
           </a>
           <a target='_blank' className='w-10 h-10 flex items-center

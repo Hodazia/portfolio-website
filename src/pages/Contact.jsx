@@ -47,7 +47,7 @@ export const ContactMe = () => {
                                 </a>
                             </ContactCard>
                             <ContactCard>
-                                <a href="https://drive.google.com/file/d/1R589dOTE44882nZJlRw5Ll3e_1gR2myC/view?usp=sharing"
+                                <a href="https://drive.google.com/file/d/1zWAi3r28KeAhDabm0jysALQ63n8yf6Hy/view"
                                  target="_blank" rel="noopener noreferrer"
                                   className="flex items-center space-x-4">
                                     <FileUser className='h-6 w-6 text-white'/>
